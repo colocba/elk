@@ -10,7 +10,7 @@ const LogosGrid = () => (
             <Grid verticalAlign="middle" columns={1} centered>
                 <Grid.Row>
                     <Grid.Column>
-                        <Image src="../assets/call-us-logo/call-us-logo.png" size='medium' centered />
+                        <Image src="assets/call-us-logo/call-us-logo.png" size='medium' centered />
                     </Grid.Column>
                 </Grid.Row>
                 <Divider/>
