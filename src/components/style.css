@@ -1,0 +1,24 @@
+.pad-20 {
+    padding: 20px;
+}
+
+.gold-bg {
+    background-color: #f5d742;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.navbar {
+    box-shadow: rgba(43,54,74,.5) 3px 3px 6px 0px;
+}
+
+.text-shad {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.navbar-nav a {
+    margin-right: 10px;
+}

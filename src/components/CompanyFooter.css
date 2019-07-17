@@ -1,0 +1,12 @@
+#contact-us h2, h3 {
+    margin: 5px 0px 5px;
+}
+
+#comp-name {
+    font-weight: bold;
+}
+
+#contact-us img {
+    margin-bottom: 5px;
+    border-color: black;
+}
