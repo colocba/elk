@@ -1,6 +1,6 @@
 import React from 'react'
 import {Grid, Image, Divider, Container} from "semantic-ui-react";
-import callus from '../public/assets/call-us-logo/call-us-logo.png';
+import callus from '../../public/assets/call-us-logo/call-us-logo.png';
 
 const style = {
     padding: '20px'
