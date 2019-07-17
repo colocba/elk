@@ -17,7 +17,7 @@ class StickyNavBar extends React.Component {
             <div className="box-shadow">
                 <Navbar bg="light" expand="lg" fixed="top">
                 <Navbar.Brand>
-                    <img src="public/assets/logo1.png" width='100' height='100' onClick={this.scrollToTop} alt=""/>
+                    <img src="../../assets/logo1.png" width='100' height='100' onClick={this.scrollToTop} alt=""/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
