@@ -1,6 +1,5 @@
 import React from 'react'
 import {Grid, Image, Divider, Container} from "semantic-ui-react";
-import callus from '../../public/assets/call-us-logo/call-us-logo.png';
 
 const style = {
     padding: '20px'
@@ -11,7 +10,7 @@ const LogosGrid = () => (
             <Grid verticalAlign="middle" columns={1} centered>
                 <Grid.Row>
                     <Grid.Column>
-                        <Image src={callus} size='medium' centered />
+                        <Image src="../assets/call-us-logo/call-us-logo.png" size='medium' centered />
                     </Grid.Column>
                 </Grid.Row>
                 <Divider/>
