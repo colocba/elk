@@ -4,6 +4,7 @@ import {Grid, Image, Divider, Container} from "semantic-ui-react";
 const style = {
     padding: '20px'
 }
+console.log(window.location.href);
 const LogosGrid = () => (
     <div style={style} id="how-works">
         <Container>
