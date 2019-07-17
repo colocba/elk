@@ -1,7 +1,6 @@
 import React from 'react'
 import {Container, Grid, Image} from "semantic-ui-react";
 import './style.css'
-import Fade from 'react-reveal/Fade';
 
 const Coverage = () => (
     <div className="gold-bg pad-20" id="coverage">

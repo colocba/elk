@@ -3,7 +3,6 @@ import {Navbar, Nav} from "react-bootstrap";
 import './style.css'
 import './fonts.css'
 import { Link, animateScroll as scroll } from "react-scroll";
-import {Container, Grid} from "semantic-ui-react";
 
 /*  Navbar menu */
 
