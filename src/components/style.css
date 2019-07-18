@@ -25,8 +25,4 @@
 
 @media (max-width : 400px) {
     .fixed-top { position: -webkit-sticky; position: sticky;}
-    .pad-20 {
-        padding-top: 5px !important;
-        padding-bottom: 5px !important;
-    }
   }
