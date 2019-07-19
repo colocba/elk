@@ -12,6 +12,15 @@ class StickyNavBar extends React.Component {
         scroll.scrollToTop();
     }
 
+    collapseNavbar = () => {
+        const but = document.getElementById("navbar-button");
+        const menu = document.getElementById("basic-navbar-nav");
+        but.classList.remove("collapsed");
+        menu.classList.add("collapsing");
+        menu.classList.remove("collapsing");
+        menu.classList.remove("show");
+    }
+
     render() {
         return (
             <div className="box-shadow">
@@ -19,7 +28,7 @@ class StickyNavBar extends React.Component {
                 <Navbar.Brand>
                     <img src="../assets/logo1.png" width='100' height='100' onClick={this.scrollToTop} alt=""/>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle id="navbar-button" aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto">
                             <Nav.Link>
@@ -31,6 +40,7 @@ class StickyNavBar extends React.Component {
                                     offset={-110}
                                     duration= {600}
                                     href=""
+                                    onClick={this.collapseNavbar}
                                 >
                                     <h2 className="comforta-font">How it works?</h2>
                                 </Link>
@@ -44,6 +54,7 @@ class StickyNavBar extends React.Component {
                                     offset={-110}
                                     duration= {600}
                                     href=""
+                                    onClick={this.collapseNavbar}
                                 >
                                     <h2 className="comforta-font">Our coverage</h2>
                                 </Link>
@@ -57,6 +68,7 @@ class StickyNavBar extends React.Component {
                                     offset={-110}
                                     duration= {600}
                                     href=""
+                                    onClick={this.collapseNavbar}
                                 >
                                     <h2 className="comforta-font">Our mission</h2>
                                 </Link>
@@ -70,6 +82,7 @@ class StickyNavBar extends React.Component {
                                     offset={-110}
                                     duration= {600}
                                     href=""
+                                    onClick={this.collapseNavbar}
                                 >
                                     <h2 className="comforta-font">Contact us</h2>
                                 </Link>
