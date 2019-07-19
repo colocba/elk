@@ -7,7 +7,7 @@ import {Carousel} from 'react-bootstrap'
 import {Container} from "semantic-ui-react";
 
 const PicCarousel = () => (
-    <div className="gold-bg">
+    <div className="gold-bg under-nav">
         <Container>
             <Carousel indicators={false}>
                 <Carousel.Item>
